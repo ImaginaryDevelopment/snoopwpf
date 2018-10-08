@@ -12,3 +12,5 @@ Release/
 *.dll
 *.ncb
 _Resharper.*
+
+\.vs/

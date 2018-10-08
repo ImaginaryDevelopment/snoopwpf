@@ -7,13 +7,12 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-using Snoop.DebugListenerTab;
 
 namespace Snoop.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.3.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -23,11 +22,11 @@ namespace Snoop.Properties {
                 return defaultInstance;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(
-      @"<?xml version=""1.0"" encoding=""utf-16""?>
+        [global::System.Configuration.DefaultSettingValueAttribute(@"
+        <?xml version=""1.0"" encoding=""utf-16""?>
         <WINDOWPLACEMENT xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
         <length>44</length>
         <flags>0</flags>
@@ -48,18 +47,15 @@ namespace Snoop.Properties {
         </normalPosition>
         </WINDOWPLACEMENT>
       ")]
-        public WINDOWPLACEMENT SnoopUIWindowPlacement
-        {
-            get
-            {
-                return ((WINDOWPLACEMENT)(this["SnoopUIWindowPlacement"]));
+        public string SnoopUIWindowPlacement {
+            get {
+                return ((string)(this["SnoopUIWindowPlacement"]));
             }
-            set
-            {
+            set {
                 this["SnoopUIWindowPlacement"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute(@"
@@ -84,19 +80,19 @@ namespace Snoop.Properties {
         </normalPosition>
         </WINDOWPLACEMENT>
       ")]
-        public WINDOWPLACEMENT AppChooserWindowPlacement {
+        public string AppChooserWindowPlacement {
             get {
-                return ((WINDOWPLACEMENT)(this["AppChooserWindowPlacement"]));
+                return ((string)(this["AppChooserWindowPlacement"]));
             }
             set {
                 this["AppChooserWindowPlacement"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(
-      @"<?xml version=""1.0"" encoding=""utf-16""?>
+        [global::System.Configuration.DefaultSettingValueAttribute(@"
+        <?xml version=""1.0"" encoding=""utf-16""?>
         <WINDOWPLACEMENT xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
         <length>44</length>
         <flags>0</flags>
@@ -117,21 +113,18 @@ namespace Snoop.Properties {
         </normalPosition>
         </WINDOWPLACEMENT>
       ")]
-        public WINDOWPLACEMENT ZoomerWindowPlacement
-        {
-            get
-            {
-                return ((WINDOWPLACEMENT)(this["ZoomerWindowPlacement"]));
+        public string ZoomerWindowPlacement {
+            get {
+                return ((string)(this["ZoomerWindowPlacement"]));
             }
-            set
-            {
+            set {
                 this["ZoomerWindowPlacement"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n        <ArrayOfPropertyFilter" +
+        [global::System.Configuration.DefaultSettingValueAttribute("\r\n        <?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n        <ArrayOfPropertyFilter" +
             "Set xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n        xmlns:xsd=\"ht" +
             "tp://www.w3.org/2001/XMLSchema\">\r\n        <PropertyFilterSet>\r\n        <DisplayN" +
             "ame>Layout</DisplayName>\r\n        <IsDefault>false</IsDefault>\r\n        <IsEditC" +
@@ -154,18 +147,15 @@ namespace Snoop.Properties {
             "IsEditCommand>\r\n        <Properties>\r\n        <string>items</string>\r\n        <s" +
             "tring>selected</string>\r\n        </Properties>\r\n        </PropertyFilterSet>\r\n  " +
             "      </ArrayOfPropertyFilterSet>\r\n      ")]
-        public PropertyFilterSet[] PropertyFilterSets
-        {
-            get
-            {
-                return ((PropertyFilterSet[])(this["PropertyFilterSets"]));
+        public string PropertyFilterSets {
+            get {
+                return ((string)(this["PropertyFilterSets"]));
             }
-            set
-            {
+            set {
                 this["PropertyFilterSets"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -201,18 +191,15 @@ namespace Snoop.Properties {
                 this["ClearAfterDelve"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public SnoopSingleFilter[] SnoopDebugFilters
-        {
-            get
-            {
-                return ((SnoopSingleFilter[])(this["SnoopDebugFilters"]));
+        public string SnoopDebugFilters {
+            get {
+                return ((string)(this["SnoopDebugFilters"]));
             }
-            set
-            {
+            set {
                 this["SnoopDebugFilters"] = value;
             }
         }
